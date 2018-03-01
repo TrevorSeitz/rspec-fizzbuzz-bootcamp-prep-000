@@ -1,11 +1,17 @@
-def fizzbuzz(num)
-  if (num % 3 == 0) && (num % 5 == 0)
-    puts "FizzBuzz"
-  elsif num % 3 == 0
-    puts "Fizz"
-  elsif num % 5 == 0
-    puts "Buzz"
-  else
-    puts nil
+# def fizzbuzz(num)
+#   if (num % 3 == 0) && (num % 5 == 0)
+#     puts "FizzBuzz"
+#   elsif num % 3 == 0
+#     puts "Fizz"
+#   elsif num % 5 == 0
+#     puts "Buzz"
+#   else
+#     puts nil
+#   end
+# end
+
+def fizzbuzz(int)
+  if int % 3 == 0 # if the number int is divisible by 3
+    "Fizz" # Go fizz
   end
 end
